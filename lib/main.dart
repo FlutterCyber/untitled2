@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled2/home_page.dart';
+import 'package:untitled2/lottie_page.dart';
 import 'package:untitled2/splash_page.dart';
 
 void main() {
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
       routes: {
         SplashPage.id: (context) => const SplashPage(),
         HomePage.id: (context) => const HomePage(),
+        LottiePage.id: (context) => const LottiePage(),
       },
     );
   }
